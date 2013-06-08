@@ -470,7 +470,6 @@ try:
     from _speedups import locate_blocks as _locate_blocks_c
 except ImportError:
     _locate_blocks_c = None
-    print >>sys.stderr, "Scanning acceleration disabled (_speedups not found)!"
 
 
 
